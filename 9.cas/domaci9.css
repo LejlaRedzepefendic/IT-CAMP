@@ -1,0 +1,24 @@
+table {
+    background-color: rgb(180, 154, 228);
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+    border: 2px dashed black;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px purple ;
+}
+
+
+
+
+.class2 {
+
+    border-bottom-left-radius: 2px dashed black;
+    border-bottom-right-radius: 2px dashed black;
+
+}
+
+.class2 tr:first-of-type(1) {
+    border: 2px solid black;
+
+}

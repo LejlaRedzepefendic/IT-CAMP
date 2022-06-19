@@ -1,0 +1,71 @@
+body {
+    /* background-color: rgb(240, 240, 97);  */
+    font-size: 18px;
+    
+}
+
+.main {
+    margin: 50px auto;
+    width: 400px;
+    height: 600px;
+    background-color: rgba(70, 142, 224,0.8);
+    /* opacity: 0.2; */
+    border-radius: 15px;
+    border: 2px solid rgb(17, 11, 141);
+    box-shadow: 4px 4px 8px rgba(17, 11, 141, 0.7),
+    -4px -4px 8px rgba(17, 11, 141, 0.7);
+
+}
+
+.main img {
+    width: 400px;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.main img:hover {
+    content: url(./palata.jpg);
+    /* height: 300px; */
+}
+
+.main h1 {
+    text-align: center;
+    text-transform: uppercase;
+    /* text-transform:lowercase ; */
+    /* text-transform: capitalize; Defaultna vrednost */
+    /* text-transform: none; */
+    font-size: 26px;
+    padding: 10px;
+}
+
+.main h3 {
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.main p {
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    /* text-align: center; */
+    /* text-align: left; */
+    /* text-align: right; */
+    text-align: justify;
+    text-indent: 20px;
+    text-align-last: right;
+
+}
+
+.main p:hover {
+    background-color: #7adc82;
+}
+
+table tr:last-child
+table tr:first-of-type (1 prvi red) td:first-of-type (4 cetvrta kolona) {}
+
+tr:nth-child(odd koji red po redu) {background: #fff;}

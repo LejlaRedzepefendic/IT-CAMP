@@ -1,0 +1,30 @@
+img{
+    height: 300px;
+    width: 500px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom: 2px dashed #fefefe;
+}
+div{
+    background-color: #2fb143;
+    width: 500px;
+    height: 700px;
+    border-radius: 15px;
+    margin: 30px auto;
+    border: 2px dotted#000000;
+}
+
+h2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    font-size: 22px;
+    padding: 0px 15px;
+}
+p :hover{
+    background-color: #60dc68;
+}
+h2 :hover{
+    background-color: #ffffff;
+}
