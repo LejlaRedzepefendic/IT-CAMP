@@ -3,7 +3,7 @@ table {
     width: 500px;
     height: 300px;
     padding: 15px;
-    border: 2px dashed black;
+    border: 2px dashed rgb(196, 183, 183);
     border-radius: 15px;
     box-shadow: 4px 4px 8px purple ;
 }
