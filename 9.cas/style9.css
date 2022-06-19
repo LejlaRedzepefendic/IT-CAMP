@@ -64,8 +64,3 @@ body {
 .main p:hover {
     background-color: #7adc82;
 }
-
-table tr:last-child
-table tr:first-of-type (1 prvi red) td:first-of-type (4 cetvrta kolona) {}
-
-tr:nth-child(odd koji red po redu) {background: #fff;}
