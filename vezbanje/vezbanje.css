@@ -1,0 +1,32 @@
+div {
+    background-color: cadetblue;
+    width: 350px;
+    height: 610px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px rgb(9, 9, 84) ;
+    text-align: center;
+    margin: auto;
+}
+
+img {
+    width: 350px;
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+div:hover {
+    background-color: rgb(249, 226, 196);
+    color: rgb(17, 17, 94);
+}
+
+img:hover {
+    content: url(./milaidhoo-maldives_compass-pool-bar-4.webp);
+}
+
+button {
+    width: 120px;
+    height: 25px;
+}
+
