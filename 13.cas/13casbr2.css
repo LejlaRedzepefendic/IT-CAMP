@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.main {
+    display: inline-block;
+    margin: 40px 20px ;
+    background-color: aqua;
+    width: 350px;
+    height: 400px;
+    overflow: auto;
+
+}
+
+/* Ako u displeju stavimo blok to nam 
+onemogucuje dodatne stilove kontejnera,sto
+nam ne ide u korist. Pozeljno je  koristiti 
+inline-block kako nam ostaje mogucnost 
+dodatne manipulacije tog kontejnera.*/
+
+/* HTML ELEMENTS */
+/* POSTOJE */
+/* 1. Block-level elements */
+/* Neki poznati block level elements: */
+/* <p> */
+/* <div> */
+/* <h1> do <h6> */
+/* <ol> <ul> <li> */
+/* <main */
+/* <section> */
+/* <article> */
+
+
+/* 2. Inline elements: */
+/* neki poznati inline elements: */
+/* <span> */
+/* <a> */
+/* <img> */
+/* <button> */
