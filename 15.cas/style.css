@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+img {
+    float: right;
+    width: 320px;
+    height: 270px;
+    margin-right: 15px;
+}
+
+p {
+    text-align: right;
+    margin-right: 15px;
+}
+
+.prvi {
+    width: 320px;
+    height: 300px;
+    background-color: rgba(0, 255, 255, 0.7);
+    clear: both;
+    float: left;
+}
+
+.drugi {
+    width: 320px;
+    height: 300px;
+    background-color: blueviolet;
+}
+
