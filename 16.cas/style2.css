@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+
+.glavni {
+        width: 100vw;
+        height: 200vh;
+        background-color: rgb(110, 242, 242);
+        position: relative;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 50px;
+    position: absolute;
+    background-color: red;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+    background-color: rgb(25, 0, 255);
+    z-index: 1;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    top: 150px;
+    left: 150px;
+    position: absolute;
+    background-color: rgb(30, 255, 0);
+    z-index: 5;
+}
+
