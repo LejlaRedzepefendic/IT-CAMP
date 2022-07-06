@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+.parent {
+    margin: 0 auto;
+    width: 600px;
+    height: 500px;
+    background-color: rgb(231, 240, 104);
+    display: flex;
+
+    /* Horizontalno poravnanje */
+
+    /* justify-content: start; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    justify-content: space-between;
+    /* justify-content: space-around; */
+
+    /* Vertikalno poravnanje */
+
+    /* align-items: start; */
+    /* align-items: center; */
+    /* align-items: end; */
+    align-items: center;
+}
+
+.box:nth-of-type(1) {
+    width: 100px;
+    height: 100px;
+    background-color: #ff1e00;
+    align-self: flex-start;
+}
+
+.box:nth-of-type(2) {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(89, 255, 0); 
+    display: flex;
+    align-items: flex-end;
+}
+
+.box:nth-of-type(2) p:nth-of-type(2) {
+    color: rgb(255, 0, 0);
+    align-self: center;
+}
+
+.box:nth-of-type(3) {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(17, 0, 255);
+    align-self: flex-end;
+}
+
