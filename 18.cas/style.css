@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+.header {
+    background-color: rgb(255, 225, 127);
+    width: 30vw;
+    height: 4rem;
+    padding: 10px;
+    border: 2px dashed rgb(43, 39, 133); 
+    box-sizing: border-box;
+}
+
+.after {
+    background-color: rgb(144, 255, 127);
+    width: 30vw;
+    height: 4rem;
+    padding: 10px;
+    border: 2px dotted black;
+
+}
+
+.footer {
+    background-color: rgb(255, 127, 255);
+    width: 30vw;
+    height: 4rem;
+    border: 2px double green;
+}
+
+
